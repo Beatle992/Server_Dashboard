@@ -1,0 +1,878 @@
+[2026-06-22T11:31:11.024Z] info: kubernetes.yaml was copied to the config folder
+[2026-06-22T11:31:47.529Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.103Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.106Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.110Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.159Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.182Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.189Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.194Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.199Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.227Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.230Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:48.277Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.012Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.178Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.182Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.200Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.203Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.205Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.207Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.257Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.261Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.297Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.300Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.302Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:50.372Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.287Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.428Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.438Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.440Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.442Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.445Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.447Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.508Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.558Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.565Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.568Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.570Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:31:51.646Z] error: Host validation failed for: 100.90.164.103:3000. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T11:34:41.812Z] info: docker.yaml was copied to the config folder
+[2026-06-22T11:34:41.813Z] info: services.yaml was copied to the config folder
+[2026-06-22T11:34:41.814Z] info: bookmarks.yaml was copied to the config folder
+[2026-06-22T11:34:41.814Z] info: widgets.yaml was copied to the config folder
+[2026-06-22T11:34:41.815Z] info: custom.css was copied to the config folder
+[2026-06-22T11:34:41.815Z] info: custom.js was copied to the config folder
+[2026-06-22T11:34:42.910Z] info: proxmox.yaml was copied to the config folder
+[2026-06-22T14:27:54.007Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Develoment:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tails\n' +
+        '        href: https://login.tailscale.com/admin/machines\n' +
+        '\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 261,
+      line: 11,
+      column: 8,
+      snippet: '  9 | \n' +
+        ' 10 |     - Tailscale:\n' +
+        ' 11 |         - abbr: Tails\n' +
+        ' 12 |         href: https://login.tailscale.c ...\n' +
+        '--------------^\n' +
+        ' 13 | \n' +
+        ' 14 | '
+    },
+    message: 'bad indentation of a mapping entry (12:9)\n' +
+      '\n' +
+      '  9 | \n' +
+      ' 10 |     - Tailscale:\n' +
+      ' 11 |         - abbr: Tails\n' +
+      ' 12 |         href: https://login.tailscale.c ...\n' +
+      '--------------^\n' +
+      ' 13 | \n' +
+      ' 14 | ',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-22T14:27:54.022Z] error: bad indentation of a mapping entry (12:9)
+
+  9 | 
+ 10 |     - Tailscale:
+ 11 |         - abbr: Tails
+ 12 |         href: https://login.tailscale.c ...
+--------------^
+ 13 | 
+ 14 | 
+[2026-06-22T14:27:54.166Z] error: <index> YAMLException: bad indentation of a mapping entry (12:9)
+
+  9 | 
+ 10 |     - Tailscale:
+ 11 |         - abbr: Tails
+ 12 |         href: https://login.tailscale.c ...
+--------------^
+ 13 | 
+ 14 | 
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-06-22T14:27:54.478Z] error: bad indentation of a mapping entry (12:9)
+
+  9 | 
+ 10 |     - Tailscale:
+ 11 |         - abbr: Tails
+ 12 |         href: https://login.tailscale.c ...
+--------------^
+ 13 | 
+ 14 | 
+[2026-06-22T14:27:54.487Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Develoment:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tails\n' +
+        '        href: https://login.tailscale.com/admin/machines\n' +
+        '\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 261,
+      line: 11,
+      column: 8,
+      snippet: '  9 | \n' +
+        ' 10 |     - Tailscale:\n' +
+        ' 11 |         - abbr: Tails\n' +
+        ' 12 |         href: https://login.tailscale.c ...\n' +
+        '--------------^\n' +
+        ' 13 | \n' +
+        ' 14 | '
+    },
+    message: 'bad indentation of a mapping entry (12:9)\n' +
+      '\n' +
+      '  9 | \n' +
+      ' 10 |     - Tailscale:\n' +
+      ' 11 |         - abbr: Tails\n' +
+      ' 12 |         href: https://login.tailscale.c ...\n' +
+      '--------------^\n' +
+      ' 13 | \n' +
+      ' 14 | ',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-22T14:27:56.416Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Develoment:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tails\n' +
+        '        href: https://login.tailscale.com/admin/machines\n' +
+        '\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 261,
+      line: 11,
+      column: 8,
+      snippet: '  9 | \n' +
+        ' 10 |     - Tailscale:\n' +
+        ' 11 |         - abbr: Tails\n' +
+        ' 12 |         href: https://login.tailscale.c ...\n' +
+        '--------------^\n' +
+        ' 13 | \n' +
+        ' 14 | '
+    },
+    message: 'bad indentation of a mapping entry (12:9)\n' +
+      '\n' +
+      '  9 | \n' +
+      ' 10 |     - Tailscale:\n' +
+      ' 11 |         - abbr: Tails\n' +
+      ' 12 |         href: https://login.tailscale.c ...\n' +
+      '--------------^\n' +
+      ' 13 | \n' +
+      ' 14 | ',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-22T14:27:56.442Z] error: bad indentation of a mapping entry (12:9)
+
+  9 | 
+ 10 |     - Tailscale:
+ 11 |         - abbr: Tails
+ 12 |         href: https://login.tailscale.c ...
+--------------^
+ 13 | 
+ 14 | 
+[2026-06-22T14:48:53.013Z] error: undefined
+[2026-06-22T14:48:53.017Z] error: undefined
+[2026-06-22T14:48:53.025Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:48:53.032Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:48:57.688Z] error: undefined
+[2026-06-22T14:48:57.689Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:48:57.692Z] error: undefined
+[2026-06-22T14:49:25.283Z] error: undefined
+[2026-06-22T14:49:25.285Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:49:25.287Z] error: undefined
+[2026-06-22T14:49:25.853Z] error: undefined
+[2026-06-22T14:49:25.859Z] error: undefined
+[2026-06-22T14:49:25.861Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:49:25.869Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:50:26.265Z] error: undefined
+[2026-06-22T14:50:26.267Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:50:26.269Z] error: undefined
+[2026-06-22T14:50:26.768Z] error: undefined
+[2026-06-22T14:50:26.773Z] error: undefined
+[2026-06-22T14:50:26.774Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:50:26.780Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:50:48.579Z] error: undefined
+[2026-06-22T14:50:48.584Z] error: undefined
+[2026-06-22T14:50:48.590Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:50:48.603Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:52:43.711Z] error: undefined
+[2026-06-22T14:52:43.712Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:52:43.715Z] error: undefined
+[2026-06-22T14:52:44.220Z] error: undefined
+[2026-06-22T14:52:44.224Z] error: undefined
+[2026-06-22T14:52:44.226Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:52:44.233Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:52:59.856Z] error: undefined
+[2026-06-22T14:52:59.860Z] error: undefined
+[2026-06-22T14:52:59.866Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T14:52:59.879Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:00:06.090Z] error: undefined
+[2026-06-22T15:00:06.095Z] error: undefined
+[2026-06-22T15:00:06.101Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:00:06.114Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:01:14.931Z] error: undefined
+[2026-06-22T15:01:14.932Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:01:14.935Z] error: undefined
+[2026-06-22T15:01:15.492Z] error: undefined
+[2026-06-22T15:01:15.496Z] error: undefined
+[2026-06-22T15:01:15.497Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:01:15.504Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:04:44.963Z] error: undefined
+[2026-06-22T15:04:44.967Z] error: undefined
+[2026-06-22T15:04:44.974Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:04:44.986Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:04:59.144Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:04:59.157Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:04:59.162Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.124Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.301Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.310Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.319Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.328Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.336Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.343Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.355Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.367Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.377Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.380Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.420Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:00.490Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.546Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.699Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.711Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.717Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.719Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.722Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.725Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.755Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.758Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.761Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.766Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.793Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:01.857Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:40.802Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:40.965Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:40.998Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.009Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.023Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.027Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.031Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.035Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.041Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.046Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.051Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.130Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:05:41.211Z] error: Host validation failed for: server.tail0e60ba.ts.net. Hint: Set the HOMEPAGE_ALLOWED_HOSTS environment variable to allow requests from this host / port.
+[2026-06-22T15:08:12.587Z] error: undefined
+[2026-06-22T15:08:12.602Z] error: undefined
+[2026-06-22T15:08:12.608Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:08:12.621Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:09:23.465Z] error: undefined
+[2026-06-22T15:09:23.473Z] error: undefined
+[2026-06-22T15:09:23.479Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T15:09:23.493Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T19:27:18.970Z] error: undefined
+[2026-06-22T19:27:18.973Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T19:27:18.976Z] error: undefined
+[2026-06-22T19:50:15.656Z] error: undefined
+[2026-06-22T19:50:15.659Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T19:50:15.663Z] error: undefined
+[2026-06-22T19:50:31.970Z] error: undefined
+[2026-06-22T19:50:31.971Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T19:50:31.974Z] error: undefined
+[2026-06-22T19:52:07.742Z] error: undefined
+[2026-06-22T19:52:07.749Z] error: undefined
+[2026-06-22T19:52:07.756Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T19:52:07.769Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T19:52:37.684Z] error: undefined
+[2026-06-22T19:52:37.685Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T19:52:37.688Z] error: undefined
+[2026-06-22T19:52:39.032Z] error: undefined
+[2026-06-22T19:52:39.039Z] error: undefined
+[2026-06-22T19:52:39.041Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-22T19:52:39.050Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:39:23.505Z] error: undefined
+[2026-06-23T06:39:23.507Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:39:23.510Z] error: undefined
+[2026-06-23T06:45:23.593Z] error: undefined
+[2026-06-23T06:45:23.594Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:45:23.597Z] error: undefined
+[2026-06-23T06:45:23.599Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:45:23.609Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:45:27.606Z] error: undefined
+[2026-06-23T06:45:27.607Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:45:27.610Z] error: undefined
+[2026-06-23T06:45:38.771Z] error: undefined
+[2026-06-23T06:45:38.772Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:45:38.774Z] error: undefined
+[2026-06-23T06:47:02.725Z] error: undefined
+[2026-06-23T06:47:02.726Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:47:02.729Z] error: undefined
+[2026-06-23T06:48:37.833Z] error: undefined
+[2026-06-23T06:48:37.834Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:48:37.838Z] error: undefined
+[2026-06-23T06:50:27.939Z] error: undefined
+[2026-06-23T06:50:27.945Z] error: undefined
+[2026-06-23T06:50:27.951Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:50:27.963Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:51:46.937Z] error: undefined
+[2026-06-23T06:51:46.938Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:51:46.941Z] error: undefined
+[2026-06-23T06:51:47.454Z] error: undefined
+[2026-06-23T06:51:47.457Z] error: undefined
+[2026-06-23T06:51:47.459Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:51:47.464Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:51:56.747Z] error: undefined
+[2026-06-23T06:51:56.748Z] error: TypeError: Invalid URL
+    at new URL (node:internal/url:818:25)
+    at l (/app/.next/server/pages/index.js:14:72402)
+    at renderWithHooks (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4747:18)
+    at renderElement (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:4885:14)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5603:16)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+    at renderNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5964:14)
+    at renderChildrenArray (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5746:7)
+    at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
+    at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
+[2026-06-23T06:51:56.751Z] error: undefined

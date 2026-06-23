@@ -1,0 +1,48 @@
+# Homepage Dashboard Settings
+# https://gethomepage.dev/configs/settings/
+
+title: Control Center
+description: Unified dashboard for monitoring services, applications, and infrastructure.
+
+favicon: /favicon.ico
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+theme: dark
+color: slate
+headerStyle: boxed
+layout:
+  Services:
+    style: row
+    columns: 4
+
+  Infrastructure:
+    style: row
+    columns: 3
+
+  Monitoring:
+    style: row
+    columns: 3
+
+quicklaunch:
+  searchDescriptions: true
+  hideInternetSearch: false
+  showSearchSuggestions: true
+
+cardBlur: sm
+
+hideVersion: false
+
+statusStyle: dot
+
+fiveColumns: false
+
+useEqualHeights: true
+
+showStats: true
+
+language: en
+
+target: _blank

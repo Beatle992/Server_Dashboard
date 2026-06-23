@@ -1,0 +1,96 @@
+:root {
+  --glass-bg: rgba(15, 23, 42, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glow: rgba(56, 189, 248, 0.35);
+}
+
+body {
+  background-attachment: fixed !important;
+}
+
+/* Header */
+header {
+  backdrop-filter: blur(20px);
+}
+
+/* Service cards */
+.service-card,
+.bookmark-card,
+.card {
+  border-radius: 18px !important;
+  background: var(--glass-bg) !important;
+  border: 1px solid var(--glass-border) !important;
+  backdrop-filter: blur(18px);
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.service-card:hover,
+.bookmark-card:hover,
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 0 20px var(--glow),
+    0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Group titles */
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/* Service names */
+.service-name {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Status dots */
+.status {
+  transform: scale(1.15);
+}
+
+/* Search bar */
+input[type="search"] {
+  border-radius: 14px !important;
+  backdrop-filter: blur(15px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
+
+/* Fade-in animation */
+.service-card,
+.bookmark-card {
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#mission-control-widget {
+    color: white;
+    min-width: 180px;
+    text-align: right;
+    transition: all 0.3s ease;
+}
+
+#mission-control-widget:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(56,189,248,.4);
+}

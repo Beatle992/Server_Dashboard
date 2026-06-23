@@ -1,0 +1,18 @@
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Development:
+    - Github:
+        - abbr: Git
+          href: https://github.com/Beatle992?tab=repositories
+    - Tailscale:
+        - abbr: Tail
+          href: https://login.tailscale.com/admin/machines
+- Electronics:
+    - AllaboutCircuits:
+        - abbr: ICs
+          href: https://www.allaboutcircuits.com/
+
+
+
+
