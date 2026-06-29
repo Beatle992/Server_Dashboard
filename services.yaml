@@ -29,7 +29,7 @@
         href: http://server.tail0e60ba.ts.net:8081/
 
     - Server Control:
-      - Power Control:
+      - Kill Switch:
           icon: mdi-power
-          href: http://100.90.164.103:8090
-          description: Server shutdown and reboot controls
+          href:
+          description: kill the server
