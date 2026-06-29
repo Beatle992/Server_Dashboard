@@ -894,3 +894,4740 @@
 [2026-06-23T14:03:33.388Z] error: TypeError: b.map is not a function
 [2026-06-23T14:03:58.446Z] error: Failed to load services.yaml, please check for errors
 [2026-06-23T14:03:58.446Z] error: TypeError: b.map is not a function
+[2026-06-29T10:34:48.419Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '   - Server Control:\n' +
+        '     - Shutdown Server:\n' +
+        '        icon: mdi-power\n' +
+        '        description: Power off this machine\n' +
+        '        href: "ssh://youruser@your-server-ip"\n',
+      position: 797,
+      line: 30,
+      column: 3,
+      snippet: ' 28 |         description: http://server ...\n' +
+        ' 29 |         href: http://server.tail0e ...\n' +
+        ' 30 | \n' +
+        ' 31 |    - Server Control:\n' +
+        '---------^\n' +
+        ' 32 |      - Shutdown Server:\n' +
+        ' 33 |         icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:4)\n' +
+      '\n' +
+      ' 28 |         description: http://server ...\n' +
+      ' 29 |         href: http://server.tail0e ...\n' +
+      ' 30 | \n' +
+      ' 31 |    - Server Control:\n' +
+      '---------^\n' +
+      ' 32 |      - Shutdown Server:\n' +
+      ' 33 |         icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:34:48.451Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:34:48.451Z] error: YAMLException: bad indentation of a sequence entry (31:4)
+
+ 28 |         description: http://server ...
+ 29 |         href: http://server.tail0e ...
+ 30 | 
+ 31 |    - Server Control:
+---------^
+ 32 |      - Shutdown Server:
+ 33 |         icon: mdi-power
+[2026-06-29T10:35:05.606Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '   - Server Control:\n' +
+        '     - Shutdown Server:\n' +
+        '        icon: mdi-power\n' +
+        '        description: Power off this machine\n' +
+        '        href: "ssh://youruser@your-server-ip"\n',
+      position: 797,
+      line: 30,
+      column: 3,
+      snippet: ' 28 |         description: http://server ...\n' +
+        ' 29 |         href: http://server.tail0e ...\n' +
+        ' 30 | \n' +
+        ' 31 |    - Server Control:\n' +
+        '---------^\n' +
+        ' 32 |      - Shutdown Server:\n' +
+        ' 33 |         icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:4)\n' +
+      '\n' +
+      ' 28 |         description: http://server ...\n' +
+      ' 29 |         href: http://server.tail0e ...\n' +
+      ' 30 | \n' +
+      ' 31 |    - Server Control:\n' +
+      '---------^\n' +
+      ' 32 |      - Shutdown Server:\n' +
+      ' 33 |         icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:35:51.953Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '     - Server Control:\n' +
+        '       - Shutdown Server:\n' +
+        '        icon: mdi-power\n' +
+        '        description: Power off this machine\n' +
+        '        href: "ssh://leo@server.tail0e60ba.ts.net/"\n',
+      position: 799,
+      line: 30,
+      column: 5,
+      snippet: ' 28 |         description: http://server.t ...\n' +
+        ' 29 |         href: http://server.tail0e60 ...\n' +
+        ' 30 | \n' +
+        ' 31 |      - Server Control:\n' +
+        '-----------^\n' +
+        ' 32 |        - Shutdown Server:\n' +
+        ' 33 |         icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:6)\n' +
+      '\n' +
+      ' 28 |         description: http://server.t ...\n' +
+      ' 29 |         href: http://server.tail0e60 ...\n' +
+      ' 30 | \n' +
+      ' 31 |      - Server Control:\n' +
+      '-----------^\n' +
+      ' 32 |        - Shutdown Server:\n' +
+      ' 33 |         icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:35:52.049Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:35:52.050Z] error: YAMLException: bad indentation of a sequence entry (31:6)
+
+ 28 |         description: http://server.t ...
+ 29 |         href: http://server.tail0e60 ...
+ 30 | 
+ 31 |      - Server Control:
+-----------^
+ 32 |        - Shutdown Server:
+ 33 |         icon: mdi-power
+[2026-06-29T10:35:52.393Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '     - Server Control:\n' +
+        '       - Shutdown Server:\n' +
+        '        icon: mdi-power\n' +
+        '        description: Power off this machine\n' +
+        '        href: "ssh://leo@server.tail0e60ba.ts.net/"\n',
+      position: 799,
+      line: 30,
+      column: 5,
+      snippet: ' 28 |         description: http://server.t ...\n' +
+        ' 29 |         href: http://server.tail0e60 ...\n' +
+        ' 30 | \n' +
+        ' 31 |      - Server Control:\n' +
+        '-----------^\n' +
+        ' 32 |        - Shutdown Server:\n' +
+        ' 33 |         icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:6)\n' +
+      '\n' +
+      ' 28 |         description: http://server.t ...\n' +
+      ' 29 |         href: http://server.tail0e60 ...\n' +
+      ' 30 | \n' +
+      ' 31 |      - Server Control:\n' +
+      '-----------^\n' +
+      ' 32 |        - Shutdown Server:\n' +
+      ' 33 |         icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:35:52.425Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:35:52.426Z] error: YAMLException: bad indentation of a sequence entry (31:6)
+
+ 28 |         description: http://server.t ...
+ 29 |         href: http://server.tail0e60 ...
+ 30 | 
+ 31 |      - Server Control:
+-----------^
+ 32 |        - Shutdown Server:
+ 33 |         icon: mdi-power
+[2026-06-29T10:35:53.548Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '     - Server Control:\n' +
+        '       - Shutdown Server:\n' +
+        '        icon: mdi-power\n' +
+        '        description: Power off this machine\n' +
+        '        href: "ssh://leo@server.tail0e60ba.ts.net/"\n',
+      position: 799,
+      line: 30,
+      column: 5,
+      snippet: ' 28 |         description: http://server.t ...\n' +
+        ' 29 |         href: http://server.tail0e60 ...\n' +
+        ' 30 | \n' +
+        ' 31 |      - Server Control:\n' +
+        '-----------^\n' +
+        ' 32 |        - Shutdown Server:\n' +
+        ' 33 |         icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:6)\n' +
+      '\n' +
+      ' 28 |         description: http://server.t ...\n' +
+      ' 29 |         href: http://server.tail0e60 ...\n' +
+      ' 30 | \n' +
+      ' 31 |      - Server Control:\n' +
+      '-----------^\n' +
+      ' 32 |        - Shutdown Server:\n' +
+      ' 33 |         icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:35:53.575Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:35:53.575Z] error: YAMLException: bad indentation of a sequence entry (31:6)
+
+ 28 |         description: http://server.t ...
+ 29 |         href: http://server.tail0e60 ...
+ 30 | 
+ 31 |      - Server Control:
+-----------^
+ 32 |        - Shutdown Server:
+ 33 |         icon: mdi-power
+[2026-06-29T10:36:00.207Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '     - Server Control:\n' +
+        '       - Shutdown Server:\n' +
+        '        icon: mdi-power\n' +
+        '        description: Power off this machine\n' +
+        '        href: "ssh://leo@server.tail0e60ba.ts.net/"\n',
+      position: 799,
+      line: 30,
+      column: 5,
+      snippet: ' 28 |         description: http://server.t ...\n' +
+        ' 29 |         href: http://server.tail0e60 ...\n' +
+        ' 30 | \n' +
+        ' 31 |      - Server Control:\n' +
+        '-----------^\n' +
+        ' 32 |        - Shutdown Server:\n' +
+        ' 33 |         icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:6)\n' +
+      '\n' +
+      ' 28 |         description: http://server.t ...\n' +
+      ' 29 |         href: http://server.tail0e60 ...\n' +
+      ' 30 | \n' +
+      ' 31 |      - Server Control:\n' +
+      '-----------^\n' +
+      ' 32 |        - Shutdown Server:\n' +
+      ' 33 |         icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:38:34.552Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Control\n' +
+        '    - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 826,
+      line: 31,
+      column: 14,
+      snippet: ' 29 |         href: http://server.tail0e60ba.ts.net ...\n' +
+        ' 30 | \n' +
+        ' 31 |  - Server Control\n' +
+        ' 32 |     - Shutdown:\n' +
+        '--------------------^\n' +
+        ' 33 |        icon: mdi-power\n' +
+        ' 34 |        description: Turn off server'
+    },
+    message: 'bad indentation of a sequence entry (32:15)\n' +
+      '\n' +
+      ' 29 |         href: http://server.tail0e60ba.ts.net ...\n' +
+      ' 30 | \n' +
+      ' 31 |  - Server Control\n' +
+      ' 32 |     - Shutdown:\n' +
+      '--------------------^\n' +
+      ' 33 |        icon: mdi-power\n' +
+      ' 34 |        description: Turn off server',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:38:34.561Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:38:34.561Z] error: YAMLException: bad indentation of a sequence entry (32:15)
+
+ 29 |         href: http://server.tail0e60ba.ts.net ...
+ 30 | 
+ 31 |  - Server Control
+ 32 |     - Shutdown:
+--------------------^
+ 33 |        icon: mdi-power
+ 34 |        description: Turn off server
+[2026-06-29T10:38:34.589Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:38:34.590Z] error: YAMLException: bad indentation of a sequence entry (32:15)
+
+ 29 |         href: http://server.tail0e60ba.ts.net ...
+ 30 | 
+ 31 |  - Server Control
+ 32 |     - Shutdown:
+--------------------^
+ 33 |        icon: mdi-power
+ 34 |        description: Turn off server
+[2026-06-29T10:38:34.968Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Control\n' +
+        '    - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 826,
+      line: 31,
+      column: 14,
+      snippet: ' 29 |         href: http://server.tail0e60ba.ts.net ...\n' +
+        ' 30 | \n' +
+        ' 31 |  - Server Control\n' +
+        ' 32 |     - Shutdown:\n' +
+        '--------------------^\n' +
+        ' 33 |        icon: mdi-power\n' +
+        ' 34 |        description: Turn off server'
+    },
+    message: 'bad indentation of a sequence entry (32:15)\n' +
+      '\n' +
+      ' 29 |         href: http://server.tail0e60ba.ts.net ...\n' +
+      ' 30 | \n' +
+      ' 31 |  - Server Control\n' +
+      ' 32 |     - Shutdown:\n' +
+      '--------------------^\n' +
+      ' 33 |        icon: mdi-power\n' +
+      ' 34 |        description: Turn off server',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:38:35.002Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:38:35.002Z] error: YAMLException: bad indentation of a sequence entry (32:15)
+
+ 29 |         href: http://server.tail0e60ba.ts.net ...
+ 30 | 
+ 31 |  - Server Control
+ 32 |     - Shutdown:
+--------------------^
+ 33 |        icon: mdi-power
+ 34 |        description: Turn off server
+[2026-06-29T10:38:54.191Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '- Server Control\n' +
+        '    - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 794,
+      line: 30,
+      column: 0,
+      snippet: ' 28 |         description: http://ser ...\n' +
+        ' 29 |         href: http://server.tai ...\n' +
+        ' 30 | \n' +
+        ' 31 | - Server Control\n' +
+        '------^\n' +
+        ' 32 |     - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'end of the stream or a document separator is expected (31:1)\n' +
+      '\n' +
+      ' 28 |         description: http://ser ...\n' +
+      ' 29 |         href: http://server.tai ...\n' +
+      ' 30 | \n' +
+      ' 31 | - Server Control\n' +
+      '------^\n' +
+      ' 32 |     - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:38:54.408Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '- Server Control\n' +
+        '    - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 794,
+      line: 30,
+      column: 0,
+      snippet: ' 28 |         description: http://ser ...\n' +
+        ' 29 |         href: http://server.tai ...\n' +
+        ' 30 | \n' +
+        ' 31 | - Server Control\n' +
+        '------^\n' +
+        ' 32 |     - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'end of the stream or a document separator is expected (31:1)\n' +
+      '\n' +
+      ' 28 |         description: http://ser ...\n' +
+      ' 29 |         href: http://server.tai ...\n' +
+      ' 30 | \n' +
+      ' 31 | - Server Control\n' +
+      '------^\n' +
+      ' 32 |     - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:38:54.433Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:38:54.433Z] error: YAMLException: end of the stream or a document separator is expected (31:1)
+
+ 28 |         description: http://ser ...
+ 29 |         href: http://server.tai ...
+ 30 | 
+ 31 | - Server Control
+------^
+ 32 |     - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:38:54.509Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:38:54.509Z] error: YAMLException: end of the stream or a document separator is expected (31:1)
+
+ 28 |         description: http://ser ...
+ 29 |         href: http://server.tai ...
+ 30 | 
+ 31 | - Server Control
+------^
+ 32 |     - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:38:54.771Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '- Server Control\n' +
+        '    - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 794,
+      line: 30,
+      column: 0,
+      snippet: ' 28 |         description: http://ser ...\n' +
+        ' 29 |         href: http://server.tai ...\n' +
+        ' 30 | \n' +
+        ' 31 | - Server Control\n' +
+        '------^\n' +
+        ' 32 |     - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'end of the stream or a document separator is expected (31:1)\n' +
+      '\n' +
+      ' 28 |         description: http://ser ...\n' +
+      ' 29 |         href: http://server.tai ...\n' +
+      ' 30 | \n' +
+      ' 31 | - Server Control\n' +
+      '------^\n' +
+      ' 32 |     - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:38:54.796Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:38:54.796Z] error: YAMLException: end of the stream or a document separator is expected (31:1)
+
+ 28 |         description: http://ser ...
+ 29 |         href: http://server.tai ...
+ 30 | 
+ 31 | - Server Control
+------^
+ 32 |     - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:39:16.795Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '- Server Control\n' +
+        '   - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 794,
+      line: 30,
+      column: 0,
+      snippet: ' 28 |         description: http://ser ...\n' +
+        ' 29 |         href: http://server.tai ...\n' +
+        ' 30 | \n' +
+        ' 31 | - Server Control\n' +
+        '------^\n' +
+        ' 32 |    - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'end of the stream or a document separator is expected (31:1)\n' +
+      '\n' +
+      ' 28 |         description: http://ser ...\n' +
+      ' 29 |         href: http://server.tai ...\n' +
+      ' 30 | \n' +
+      ' 31 | - Server Control\n' +
+      '------^\n' +
+      ' 32 |    - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:39:17.010Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '- Server Control\n' +
+        '   - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 794,
+      line: 30,
+      column: 0,
+      snippet: ' 28 |         description: http://ser ...\n' +
+        ' 29 |         href: http://server.tai ...\n' +
+        ' 30 | \n' +
+        ' 31 | - Server Control\n' +
+        '------^\n' +
+        ' 32 |    - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'end of the stream or a document separator is expected (31:1)\n' +
+      '\n' +
+      ' 28 |         description: http://ser ...\n' +
+      ' 29 |         href: http://server.tai ...\n' +
+      ' 30 | \n' +
+      ' 31 | - Server Control\n' +
+      '------^\n' +
+      ' 32 |    - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:39:17.030Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:39:17.030Z] error: YAMLException: end of the stream or a document separator is expected (31:1)
+
+ 28 |         description: http://ser ...
+ 29 |         href: http://server.tai ...
+ 30 | 
+ 31 | - Server Control
+------^
+ 32 |    - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:39:17.101Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:39:17.101Z] error: YAMLException: end of the stream or a document separator is expected (31:1)
+
+ 28 |         description: http://ser ...
+ 29 |         href: http://server.tai ...
+ 30 | 
+ 31 | - Server Control
+------^
+ 32 |    - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:39:17.357Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '- Server Control\n' +
+        '   - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 794,
+      line: 30,
+      column: 0,
+      snippet: ' 28 |         description: http://ser ...\n' +
+        ' 29 |         href: http://server.tai ...\n' +
+        ' 30 | \n' +
+        ' 31 | - Server Control\n' +
+        '------^\n' +
+        ' 32 |    - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'end of the stream or a document separator is expected (31:1)\n' +
+      '\n' +
+      ' 28 |         description: http://ser ...\n' +
+      ' 29 |         href: http://server.tai ...\n' +
+      ' 30 | \n' +
+      ' 31 | - Server Control\n' +
+      '------^\n' +
+      ' 32 |    - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:39:17.388Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:39:17.388Z] error: YAMLException: end of the stream or a document separator is expected (31:1)
+
+ 28 |         description: http://ser ...
+ 29 |         href: http://server.tai ...
+ 30 | 
+ 31 | - Server Control
+------^
+ 32 |    - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:39:24.076Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Control\n' +
+        '     - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Control\n' +
+        '--------^\n' +
+        ' 32 |      - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Control\n' +
+      '--------^\n' +
+      ' 32 |      - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:39:24.297Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Control\n' +
+        '     - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Control\n' +
+        '--------^\n' +
+        ' 32 |      - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Control\n' +
+      '--------^\n' +
+      ' 32 |      - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:39:24.312Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:39:24.312Z] error: YAMLException: bad indentation of a sequence entry (31:3)
+
+ 28 |         description: http://serve ...
+ 29 |         href: http://server.tail0 ...
+ 30 | 
+ 31 |   - Server Control
+--------^
+ 32 |      - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:39:24.401Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:39:24.401Z] error: YAMLException: bad indentation of a sequence entry (31:3)
+
+ 28 |         description: http://serve ...
+ 29 |         href: http://server.tail0 ...
+ 30 | 
+ 31 |   - Server Control
+--------^
+ 32 |      - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:39:24.657Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Control\n' +
+        '     - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Control\n' +
+        '--------^\n' +
+        ' 32 |      - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Control\n' +
+      '--------^\n' +
+      ' 32 |      - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:39:24.683Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:39:24.683Z] error: YAMLException: bad indentation of a sequence entry (31:3)
+
+ 28 |         description: http://serve ...
+ 29 |         href: http://server.tail0 ...
+ 30 | 
+ 31 |   - Server Control
+--------^
+ 32 |      - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:40:14.962Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Control:\n' +
+        '     - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Control:\n' +
+        '--------^\n' +
+        ' 32 |      - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Control:\n' +
+      '--------^\n' +
+      ' 32 |      - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:40:15.188Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Control:\n' +
+        '     - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Control:\n' +
+        '--------^\n' +
+        ' 32 |      - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Control:\n' +
+      '--------^\n' +
+      ' 32 |      - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:40:15.224Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:40:15.224Z] error: YAMLException: bad indentation of a sequence entry (31:3)
+
+ 28 |         description: http://serve ...
+ 29 |         href: http://server.tail0 ...
+ 30 | 
+ 31 |   - Server Control:
+--------^
+ 32 |      - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:40:15.286Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:40:15.286Z] error: YAMLException: bad indentation of a sequence entry (31:3)
+
+ 28 |         description: http://serve ...
+ 29 |         href: http://server.tail0 ...
+ 30 | 
+ 31 |   - Server Control:
+--------^
+ 32 |      - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:40:15.535Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Control:\n' +
+        '     - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Control:\n' +
+        '--------^\n' +
+        ' 32 |      - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Control:\n' +
+      '--------^\n' +
+      ' 32 |      - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:40:15.558Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:40:15.558Z] error: YAMLException: bad indentation of a sequence entry (31:3)
+
+ 28 |         description: http://serve ...
+ 29 |         href: http://server.tail0 ...
+ 30 | 
+ 31 |   - Server Control:
+--------^
+ 32 |      - Shutdown:
+ 33 |        icon: mdi-power
+[2026-06-29T10:40:55.520Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Control:\n' +
+        '     - Shutdown:\n' +
+        '       icon: mdi-power\n' +
+        '       description: Turn off server\n' +
+        '       href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Control:\n' +
+        '--------^\n' +
+        ' 32 |      - Shutdown:\n' +
+        ' 33 |        icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Control:\n' +
+      '--------^\n' +
+      ' 32 |      - Shutdown:\n' +
+      ' 33 |        icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:41:15.215Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Controls:\n' +
+        '    - Shutdown:\n' +
+        '        icon: mdi-power\n' +
+        '        description: Turn off server\n' +
+        '        href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Controls:\n' +
+        '--------^\n' +
+        ' 32 |     - Shutdown:\n' +
+        ' 33 |         icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Controls:\n' +
+      '--------^\n' +
+      ' 32 |     - Shutdown:\n' +
+      ' 33 |         icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:41:15.282Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:41:15.282Z] error: YAMLException: bad indentation of a sequence entry (31:3)
+
+ 28 |         description: http://serve ...
+ 29 |         href: http://server.tail0 ...
+ 30 | 
+ 31 |   - Server Controls:
+--------^
+ 32 |     - Shutdown:
+ 33 |         icon: mdi-power
+[2026-06-29T10:41:15.594Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '  - Server Controls:\n' +
+        '    - Shutdown:\n' +
+        '        icon: mdi-power\n' +
+        '        description: Turn off server\n' +
+        '        href: http://YOUR_SERVER_IP:9999\n',
+      position: 796,
+      line: 30,
+      column: 2,
+      snippet: ' 28 |         description: http://serve ...\n' +
+        ' 29 |         href: http://server.tail0 ...\n' +
+        ' 30 | \n' +
+        ' 31 |   - Server Controls:\n' +
+        '--------^\n' +
+        ' 32 |     - Shutdown:\n' +
+        ' 33 |         icon: mdi-power'
+    },
+    message: 'bad indentation of a sequence entry (31:3)\n' +
+      '\n' +
+      ' 28 |         description: http://serve ...\n' +
+      ' 29 |         href: http://server.tail0 ...\n' +
+      ' 30 | \n' +
+      ' 31 |   - Server Controls:\n' +
+      '--------^\n' +
+      ' 32 |     - Shutdown:\n' +
+      ' 33 |         icon: mdi-power',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T10:41:15.625Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T10:41:15.625Z] error: YAMLException: bad indentation of a sequence entry (31:3)
+
+ 28 |         description: http://serve ...
+ 29 |         href: http://server.tail0 ...
+ 30 | 
+ 31 |   - Server Controls:
+--------^
+ 32 |     - Shutdown:
+ 33 |         icon: mdi-power
+[2026-06-29T11:11:47.923Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:11:47.924Z] error: TypeError: b[c].forEach is not a function
+[2026-06-29T11:11:47.968Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:11:47.969Z] error: TypeError: b[c].forEach is not a function
+[2026-06-29T11:11:48.436Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:11:48.437Z] error: TypeError: b[c].forEach is not a function
+[2026-06-29T11:12:09.523Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:12:09.523Z] error: YAMLException: bad indentation of a sequence entry (33:7)
+
+ 30 | 
+ 31 |  - Server Controls:
+ 32 |      - Server:
+ 33 |       - name: Restart Server
+------------^
+ 34 |         icon: restart
+ 35 |         type: button
+[2026-06-29T11:12:09.803Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '     - Server:\n' +
+        '      - name: Restart Server\n' +
+        '        icon: restart\n' +
+        '        type: button\n' +
+        '        action: http\n' +
+        '        url: http://100.90.164.103:9999/restart\n' +
+        '        method: POST\n' +
+        '        headers:\n' +
+        '          X-Auth-Token: pcFMgjHMsBu9rOmQ9LfbyialO59RePWpw7\n' +
+        '          Content-Type: application/json\n' +
+        '        body: |\n' +
+        '          {"confirm": true}\n',
+      position: 835,
+      line: 32,
+      column: 6,
+      snippet: ' 30 | \n' +
+        ' 31 |  - Server Controls:\n' +
+        ' 32 |      - Server:\n' +
+        ' 33 |       - name: Restart Server\n' +
+        '------------^\n' +
+        ' 34 |         icon: restart\n' +
+        ' 35 |         type: button'
+    },
+    message: 'bad indentation of a sequence entry (33:7)\n' +
+      '\n' +
+      ' 30 | \n' +
+      ' 31 |  - Server Controls:\n' +
+      ' 32 |      - Server:\n' +
+      ' 33 |       - name: Restart Server\n' +
+      '------------^\n' +
+      ' 34 |         icon: restart\n' +
+      ' 35 |         type: button',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T11:12:09.862Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:12:09.862Z] error: YAMLException: bad indentation of a sequence entry (33:7)
+
+ 30 | 
+ 31 |  - Server Controls:
+ 32 |      - Server:
+ 33 |       - name: Restart Server
+------------^
+ 34 |         icon: restart
+ 35 |         type: button
+[2026-06-29T11:12:09.982Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:12:09.982Z] error: YAMLException: bad indentation of a sequence entry (33:7)
+
+ 30 | 
+ 31 |  - Server Controls:
+ 32 |      - Server:
+ 33 |       - name: Restart Server
+------------^
+ 34 |         icon: restart
+ 35 |         type: button
+[2026-06-29T11:12:10.271Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '     - Server:\n' +
+        '      - name: Restart Server\n' +
+        '        icon: restart\n' +
+        '        type: button\n' +
+        '        action: http\n' +
+        '        url: http://100.90.164.103:9999/restart\n' +
+        '        method: POST\n' +
+        '        headers:\n' +
+        '          X-Auth-Token: pcFMgjHMsBu9rOmQ9LfbyialO59RePWpw7\n' +
+        '          Content-Type: application/json\n' +
+        '        body: |\n' +
+        '          {"confirm": true}\n',
+      position: 835,
+      line: 32,
+      column: 6,
+      snippet: ' 30 | \n' +
+        ' 31 |  - Server Controls:\n' +
+        ' 32 |      - Server:\n' +
+        ' 33 |       - name: Restart Server\n' +
+        '------------^\n' +
+        ' 34 |         icon: restart\n' +
+        ' 35 |         type: button'
+    },
+    message: 'bad indentation of a sequence entry (33:7)\n' +
+      '\n' +
+      ' 30 | \n' +
+      ' 31 |  - Server Controls:\n' +
+      ' 32 |      - Server:\n' +
+      ' 33 |       - name: Restart Server\n' +
+      '------------^\n' +
+      ' 34 |         icon: restart\n' +
+      ' 35 |         type: button',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T11:12:10.355Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:12:10.355Z] error: YAMLException: bad indentation of a sequence entry (33:7)
+
+ 30 | 
+ 31 |  - Server Controls:
+ 32 |      - Server:
+ 33 |       - name: Restart Server
+------------^
+ 34 |         icon: restart
+ 35 |         type: button
+[2026-06-29T11:12:54.022Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T11:12:54.317Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T11:12:54.445Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T11:12:54.841Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T11:31:38.833Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:31:38.834Z] error: YAMLException: bad indentation of a sequence entry (33:7)
+
+ 30 | 
+ 31 |  - Server Controls:
+ 32 |      - name: Server Controls
+ 33 |       items:
+------------^
+ 34 |         - name: Restart Server
+ 35 |           type: button
+[2026-06-29T11:31:38.900Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '     - name: Server Controls\n' +
+        '      items:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: CHANGE_THIS_TO_LONG_RANDOM\n' +
+        '          body: |\n' +
+        '            {}\n',
+      position: 849,
+      line: 32,
+      column: 6,
+      snippet: ' 30 | \n' +
+        ' 31 |  - Server Controls:\n' +
+        ' 32 |      - name: Server Controls\n' +
+        ' 33 |       items:\n' +
+        '------------^\n' +
+        ' 34 |         - name: Restart Server\n' +
+        ' 35 |           type: button'
+    },
+    message: 'bad indentation of a sequence entry (33:7)\n' +
+      '\n' +
+      ' 30 | \n' +
+      ' 31 |  - Server Controls:\n' +
+      ' 32 |      - name: Server Controls\n' +
+      ' 33 |       items:\n' +
+      '------------^\n' +
+      ' 34 |         - name: Restart Server\n' +
+      ' 35 |           type: button',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T11:31:38.981Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:31:38.981Z] error: YAMLException: bad indentation of a sequence entry (33:7)
+
+ 30 | 
+ 31 |  - Server Controls:
+ 32 |      - name: Server Controls
+ 33 |       items:
+------------^
+ 34 |         - name: Restart Server
+ 35 |           type: button
+[2026-06-29T11:31:39.368Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a sequence entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '     - name: Server Controls\n' +
+        '      items:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: CHANGE_THIS_TO_LONG_RANDOM\n' +
+        '          body: |\n' +
+        '            {}\n',
+      position: 849,
+      line: 32,
+      column: 6,
+      snippet: ' 30 | \n' +
+        ' 31 |  - Server Controls:\n' +
+        ' 32 |      - name: Server Controls\n' +
+        ' 33 |       items:\n' +
+        '------------^\n' +
+        ' 34 |         - name: Restart Server\n' +
+        ' 35 |           type: button'
+    },
+    message: 'bad indentation of a sequence entry (33:7)\n' +
+      '\n' +
+      ' 30 | \n' +
+      ' 31 |  - Server Controls:\n' +
+      ' 32 |      - name: Server Controls\n' +
+      ' 33 |       items:\n' +
+      '------------^\n' +
+      ' 34 |         - name: Restart Server\n' +
+      ' 35 |           type: button',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T11:31:39.426Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T11:31:39.427Z] error: YAMLException: bad indentation of a sequence entry (33:7)
+
+ 30 | 
+ 31 |  - Server Controls:
+ 32 |      - name: Server Controls
+ 33 |       items:
+------------^
+ 34 |         - name: Restart Server
+ 35 |           type: button
+[2026-06-29T11:32:14.936Z] warn: <service-helpers> Error parsing service "Server Controls" from config. Ensure required fields are present.
+[2026-06-29T11:32:14.994Z] warn: <service-helpers> Error parsing service "Server Controls" from config. Ensure required fields are present.
+[2026-06-29T11:32:15.443Z] warn: <service-helpers> Error parsing service "Server Controls" from config. Ensure required fields are present.
+[2026-06-29T12:52:24.224Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T12:52:24.225Z] error: undefined
+[2026-06-29T12:52:24.406Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T12:52:24.406Z] error: undefined
+[2026-06-29T12:52:24.894Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T12:52:24.894Z] error: undefined
+[2026-06-29T12:53:56.191Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:53:56.191Z] error: YAMLException: bad indentation of a mapping entry (42:14)
+
+ 39 |           body: |
+ 40 |             {}
+ 41 |  - name: Server Controls
+ 42 |       widgets:
+-------------------^
+ 43 |         - cpu_temp
+[2026-06-29T12:53:56.238Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        ' - name: Server Controls\n' +
+        '      widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1111,
+      line: 41,
+      column: 13,
+      snippet: ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |  - name: Server Controls\n' +
+        ' 42 |       widgets:\n' +
+        '-------------------^\n' +
+        ' 43 |         - cpu_temp'
+    },
+    message: 'bad indentation of a mapping entry (42:14)\n' +
+      '\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |  - name: Server Controls\n' +
+      ' 42 |       widgets:\n' +
+      '-------------------^\n' +
+      ' 43 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:53:56.295Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:53:56.295Z] error: YAMLException: bad indentation of a mapping entry (42:14)
+
+ 39 |           body: |
+ 40 |             {}
+ 41 |  - name: Server Controls
+ 42 |       widgets:
+-------------------^
+ 43 |         - cpu_temp
+[2026-06-29T12:53:56.709Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        ' - name: Server Controls\n' +
+        '      widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1111,
+      line: 41,
+      column: 13,
+      snippet: ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |  - name: Server Controls\n' +
+        ' 42 |       widgets:\n' +
+        '-------------------^\n' +
+        ' 43 |         - cpu_temp'
+    },
+    message: 'bad indentation of a mapping entry (42:14)\n' +
+      '\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |  - name: Server Controls\n' +
+      ' 42 |       widgets:\n' +
+      '-------------------^\n' +
+      ' 43 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:53:56.735Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:53:56.735Z] error: YAMLException: bad indentation of a mapping entry (42:14)
+
+ 39 |           body: |
+ 40 |             {}
+ 41 |  - name: Server Controls
+ 42 |       widgets:
+-------------------^
+ 43 |         - cpu_temp
+[2026-06-29T12:54:04.125Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        ' - name: Server Controls\n' +
+        '     widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1110,
+      line: 41,
+      column: 12,
+      snippet: ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |  - name: Server Controls\n' +
+        ' 42 |      widgets:\n' +
+        '------------------^\n' +
+        ' 43 |         - cpu_temp'
+    },
+    message: 'bad indentation of a mapping entry (42:13)\n' +
+      '\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |  - name: Server Controls\n' +
+      ' 42 |      widgets:\n' +
+      '------------------^\n' +
+      ' 43 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:54:04.203Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:54:04.203Z] error: YAMLException: bad indentation of a mapping entry (42:13)
+
+ 39 |           body: |
+ 40 |             {}
+ 41 |  - name: Server Controls
+ 42 |      widgets:
+------------------^
+ 43 |         - cpu_temp
+[2026-06-29T12:54:04.472Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:54:04.472Z] error: YAMLException: bad indentation of a mapping entry (42:13)
+
+ 39 |           body: |
+ 40 |             {}
+ 41 |  - name: Server Controls
+ 42 |      widgets:
+------------------^
+ 43 |         - cpu_temp
+[2026-06-29T12:54:09.503Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        ' - name: Server Controls\n' +
+        '     widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1110,
+      line: 41,
+      column: 12,
+      snippet: ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |  - name: Server Controls\n' +
+        ' 42 |      widgets:\n' +
+        '------------------^\n' +
+        ' 43 |         - cpu_temp'
+    },
+    message: 'bad indentation of a mapping entry (42:13)\n' +
+      '\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |  - name: Server Controls\n' +
+      ' 42 |      widgets:\n' +
+      '------------------^\n' +
+      ' 43 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:54:32.594Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        '       - widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1080,
+      line: 40,
+      column: 7,
+      snippet: ' 38 |             X-Auth: s1YF35yWpalQtS2h6p ...\n' +
+        ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |        - widgets:\n' +
+        '-------------^\n' +
+        ' 42 |         - cpu_temp'
+    },
+    message: 'bad indentation of a mapping entry (41:8)\n' +
+      '\n' +
+      ' 38 |             X-Auth: s1YF35yWpalQtS2h6p ...\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |        - widgets:\n' +
+      '-------------^\n' +
+      ' 42 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:54:32.862Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        '       - widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1080,
+      line: 40,
+      column: 7,
+      snippet: ' 38 |             X-Auth: s1YF35yWpalQtS2h6p ...\n' +
+        ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |        - widgets:\n' +
+        '-------------^\n' +
+        ' 42 |         - cpu_temp'
+    },
+    message: 'bad indentation of a mapping entry (41:8)\n' +
+      '\n' +
+      ' 38 |             X-Auth: s1YF35yWpalQtS2h6p ...\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |        - widgets:\n' +
+      '-------------^\n' +
+      ' 42 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:54:32.891Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:54:32.891Z] error: YAMLException: bad indentation of a mapping entry (41:8)
+
+ 38 |             X-Auth: s1YF35yWpalQtS2h6p ...
+ 39 |           body: |
+ 40 |             {}
+ 41 |        - widgets:
+-------------^
+ 42 |         - cpu_temp
+[2026-06-29T12:54:32.998Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:54:32.998Z] error: YAMLException: bad indentation of a mapping entry (41:8)
+
+ 38 |             X-Auth: s1YF35yWpalQtS2h6p ...
+ 39 |           body: |
+ 40 |             {}
+ 41 |        - widgets:
+-------------^
+ 42 |         - cpu_temp
+[2026-06-29T12:54:33.266Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        '       - widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1080,
+      line: 40,
+      column: 7,
+      snippet: ' 38 |             X-Auth: s1YF35yWpalQtS2h6p ...\n' +
+        ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |        - widgets:\n' +
+        '-------------^\n' +
+        ' 42 |         - cpu_temp'
+    },
+    message: 'bad indentation of a mapping entry (41:8)\n' +
+      '\n' +
+      ' 38 |             X-Auth: s1YF35yWpalQtS2h6p ...\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |        - widgets:\n' +
+      '-------------^\n' +
+      ' 42 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:54:33.327Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:54:33.327Z] error: YAMLException: bad indentation of a mapping entry (41:8)
+
+ 38 |             X-Auth: s1YF35yWpalQtS2h6p ...
+ 39 |           body: |
+ 40 |             {}
+ 41 |        - widgets:
+-------------^
+ 42 |         - cpu_temp
+[2026-06-29T12:54:43.990Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        '       \n' +
+        '- widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1081,
+      line: 41,
+      column: 0,
+      snippet: ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |        \n' +
+        ' 42 | - widgets:\n' +
+        '------^\n' +
+        ' 43 |         - cpu_temp'
+    },
+    message: 'end of the stream or a document separator is expected (42:1)\n' +
+      '\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |        \n' +
+      ' 42 | - widgets:\n' +
+      '------^\n' +
+      ' 43 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:54:44.063Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:54:44.064Z] error: YAMLException: end of the stream or a document separator is expected (42:1)
+
+ 39 |           body: |
+ 40 |             {}
+ 41 |        
+ 42 | - widgets:
+------^
+ 43 |         - cpu_temp
+[2026-06-29T12:54:46.742Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        '       \n' +
+        '- widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1081,
+      line: 41,
+      column: 0,
+      snippet: ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |        \n' +
+        ' 42 | - widgets:\n' +
+        '------^\n' +
+        ' 43 |         - cpu_temp'
+    },
+    message: 'end of the stream or a document separator is expected (42:1)\n' +
+      '\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |        \n' +
+      ' 42 | - widgets:\n' +
+      '------^\n' +
+      ' 43 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:54:46.817Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:54:46.817Z] error: YAMLException: end of the stream or a document separator is expected (42:1)
+
+ 39 |           body: |
+ 40 |             {}
+ 41 |        
+ 42 | - widgets:
+------^
+ 43 |         - cpu_temp
+[2026-06-29T12:54:55.510Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'end of the stream or a document separator is expected',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '        - name: Restart Server\n' +
+        '          type: button\n' +
+        '          action: http\n' +
+        '          url: http://100.64.12.34:8787/api/restart\n' +
+        '          method: POST\n' +
+        '          headers:\n' +
+        '            X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '          body: |\n' +
+        '            {}\n' +
+        '       \n' +
+        '- widgets:\n' +
+        '        - cpu_temp\n',
+      position: 1081,
+      line: 41,
+      column: 0,
+      snippet: ' 39 |           body: |\n' +
+        ' 40 |             {}\n' +
+        ' 41 |        \n' +
+        ' 42 | - widgets:\n' +
+        '------^\n' +
+        ' 43 |         - cpu_temp'
+    },
+    message: 'end of the stream or a document separator is expected (42:1)\n' +
+      '\n' +
+      ' 39 |           body: |\n' +
+      ' 40 |             {}\n' +
+      ' 41 |        \n' +
+      ' 42 | - widgets:\n' +
+      '------^\n' +
+      ' 43 |         - cpu_temp',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:56:10.435Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:56:10.436Z] error: TypeError: b[c].forEach is not a function
+[2026-06-29T12:56:10.784Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:56:10.784Z] error: TypeError: b[c].forEach is not a function
+[2026-06-29T12:56:10.920Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:56:10.920Z] error: TypeError: b[c].forEach is not a function
+[2026-06-29T12:56:11.306Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:56:11.306Z] error: TypeError: b[c].forEach is not a function
+[2026-06-29T12:56:24.342Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T12:56:24.649Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T12:56:24.726Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T12:56:25.148Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T12:57:13.764Z] warn: <service-helpers> Error parsing service "Restart Server" from config. Ensure required fields are present.
+[2026-06-29T12:57:22.957Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:57:22.957Z] error: YAMLException: bad indentation of a mapping entry (39:10)
+
+ 36 |         method: POST
+ 37 |         headers:
+ 38 |           X-Auth: s1YF35yWpalQtS2h6p3Plm ...
+ 39 |          body: |
+---------------^
+ 40 |             {}
+ 41 |        
+[2026-06-29T12:57:23.000Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '     - Restart Server:\n' +
+        '        type: button\n' +
+        '        action: http\n' +
+        '        url: http://100.64.12.34:8787/api/restart\n' +
+        '        method: POST\n' +
+        '        headers:\n' +
+        '          X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '         body: |\n' +
+        '            {}\n' +
+        '       \n',
+      position: 1029,
+      line: 38,
+      column: 9,
+      snippet: ' 36 |         method: POST\n' +
+        ' 37 |         headers:\n' +
+        ' 38 |           X-Auth: s1YF35yWpalQtS2h6p3Plm ...\n' +
+        ' 39 |          body: |\n' +
+        '---------------^\n' +
+        ' 40 |             {}\n' +
+        ' 41 |        '
+    },
+    message: 'bad indentation of a mapping entry (39:10)\n' +
+      '\n' +
+      ' 36 |         method: POST\n' +
+      ' 37 |         headers:\n' +
+      ' 38 |           X-Auth: s1YF35yWpalQtS2h6p3Plm ...\n' +
+      ' 39 |          body: |\n' +
+      '---------------^\n' +
+      ' 40 |             {}\n' +
+      ' 41 |        ',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:57:23.123Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:57:23.123Z] error: YAMLException: bad indentation of a mapping entry (39:10)
+
+ 36 |         method: POST
+ 37 |         headers:
+ 38 |           X-Auth: s1YF35yWpalQtS2h6p3Plm ...
+ 39 |          body: |
+---------------^
+ 40 |             {}
+ 41 |        
+[2026-06-29T12:57:23.539Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: si-minecraft\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        ' - Server Controls:\n' +
+        '     - Restart Server:\n' +
+        '        type: button\n' +
+        '        action: http\n' +
+        '        url: http://100.64.12.34:8787/api/restart\n' +
+        '        method: POST\n' +
+        '        headers:\n' +
+        '          X-Auth: s1YF35yWpalQtS2h6p3PlmBip4YBaA3SIF\n' +
+        '         body: |\n' +
+        '            {}\n' +
+        '       \n',
+      position: 1029,
+      line: 38,
+      column: 9,
+      snippet: ' 36 |         method: POST\n' +
+        ' 37 |         headers:\n' +
+        ' 38 |           X-Auth: s1YF35yWpalQtS2h6p3Plm ...\n' +
+        ' 39 |          body: |\n' +
+        '---------------^\n' +
+        ' 40 |             {}\n' +
+        ' 41 |        '
+    },
+    message: 'bad indentation of a mapping entry (39:10)\n' +
+      '\n' +
+      ' 36 |         method: POST\n' +
+      ' 37 |         headers:\n' +
+      ' 38 |           X-Auth: s1YF35yWpalQtS2h6p3Plm ...\n' +
+      ' 39 |          body: |\n' +
+      '---------------^\n' +
+      ' 40 |             {}\n' +
+      ' 41 |        ',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T12:57:23.556Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T12:57:23.556Z] error: YAMLException: bad indentation of a mapping entry (39:10)
+
+ 36 |         method: POST
+ 37 |         headers:
+ 38 |           X-Auth: s1YF35yWpalQtS2h6p3Plm ...
+ 39 |          body: |
+---------------^
+ 40 |             {}
+ 41 |        
+[2026-06-29T13:16:02.648Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T13:16:02.649Z] error: end of the stream or a document separator is expected (10:1)
+
+  7 |     memory: true
+  8 |     disk: /
+  9 | 
+ 10 | -glances:
+------^
+ 11 |     url: http://server.tail0e60 ...
+ 12 | 
+[2026-06-29T13:16:02.991Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T13:16:02.992Z] error: end of the stream or a document separator is expected (10:1)
+
+  7 |     memory: true
+  8 |     disk: /
+  9 | 
+ 10 | -glances:
+------^
+ 11 |     url: http://server.tail0e60 ...
+ 12 | 
+[2026-06-29T13:16:03.365Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T13:16:03.365Z] error: end of the stream or a document separator is expected (10:1)
+
+  7 |     memory: true
+  8 |     disk: /
+  9 | 
+ 10 | -glances:
+------^
+ 11 |     url: http://server.tail0e60 ...
+ 12 | 
+[2026-06-29T13:16:18.286Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T13:16:18.286Z] error: end of the stream or a document separator is expected (10:1)
+
+  7 |     memory: true
+  8 |     disk: /
+  9 | 
+ 10 | -glances:
+------^
+ 11 |     url: http://server.tail0e60 ...
+ 12 | 
+[2026-06-29T13:16:42.403Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T13:16:42.404Z] error: end of the stream or a document separator is expected (10:1)
+
+  7 |     memory: true
+  8 |     disk: /
+  9 | 
+ 10 | -glances:
+------^
+ 11 |     url: http://server.tail0e60 ...
+ 12 |     username: ""
+[2026-06-29T13:16:42.658Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T13:16:42.658Z] error: end of the stream or a document separator is expected (10:1)
+
+  7 |     memory: true
+  8 |     disk: /
+  9 | 
+ 10 | -glances:
+------^
+ 11 |     url: http://server.tail0e60 ...
+ 12 |     username: ""
+[2026-06-29T13:16:44.199Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T13:16:44.200Z] error: end of the stream or a document separator is expected (10:1)
+
+  7 |     memory: true
+  8 |     disk: /
+  9 | 
+ 10 | -glances:
+------^
+ 11 |     url: http://server.tail0e60 ...
+ 12 |     username: ""
+[2026-06-29T13:16:52.844Z] error: Failed to load widgets, please check widgets.yaml for errors or remove example entries.
+[2026-06-29T13:16:52.845Z] error: end of the stream or a document separator is expected (10:1)
+
+  7 |     memory: true
+  8 |     disk: /
+  9 | 
+ 10 | -glances:
+------^
+ 11 |     url: http://server.tail0e60 ...
+ 12 |     username: ""
+[2026-06-29T13:24:02.118Z] error: <httpProxy> Error calling http://server.tail0e60ba.ts.net:61208/api/3/api/3/cpu...
+[2026-06-29T13:24:02.123Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.90.164.103:61208
+      at <unknown> (Error: connect ETIMEDOUT 100.90.164.103:61208) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.90.164.103',
+    port: 61208
+  }
+]
+[2026-06-29T13:24:02.124Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2026-06-29T13:24:02.124Z] error: <httpProxy> Error calling http://server.tail0e60ba.ts.net:61208/api/3/api/3/cpu...
+[2026-06-29T13:24:02.125Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.90.164.103:61208
+      at <unknown> (Error: connect ETIMEDOUT 100.90.164.103:61208) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.90.164.103',
+    port: 61208
+  }
+]
+[2026-06-29T13:24:02.125Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2026-06-29T13:26:45.956Z] error: <httpProxy> Error calling http://server.tail0e60ba.ts.net:61208/api/3/api/3/cpu...
+[2026-06-29T13:26:45.957Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.90.164.103:61208
+      at <unknown> (Error: connect ETIMEDOUT 100.90.164.103:61208) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.90.164.103',
+    port: 61208
+  }
+]
+[2026-06-29T13:26:45.958Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2026-06-29T13:26:45.959Z] error: <httpProxy> Error calling http://server.tail0e60ba.ts.net:61208/api/3/api/3/cpu...
+[2026-06-29T13:26:45.960Z] error: <httpProxy> [
+  500,
+  Error: connect ETIMEDOUT 100.90.164.103:61208
+      at <unknown> (Error: connect ETIMEDOUT 100.90.164.103:61208) {
+    errno: -110,
+    code: 'ETIMEDOUT',
+    syscall: 'connect',
+    address: '100.90.164.103',
+    port: 61208
+  }
+]
+[2026-06-29T13:26:45.960Z] error: <glances> HTTP 500 getting data from glances API. Data: [object Object]
+[2026-06-29T13:27:55.954Z] error: undefined
+[2026-06-29T13:47:12.993Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T13:47:12.995Z] error: YAMLException: bad indentation of a mapping entry (6:5)
+
+ 3 | # https://gethomepage.dev/configs/se ...
+ 4 |  - Services:
+ 5 |     icon: si-dotnet
+ 6 |     - Todo API:
+---------^
+ 7 |         container: todoapi
+ 8 |         icon: si-dotnet
+[2026-06-29T13:47:13.031Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    icon: si-dotnet\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: mdi-tools\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '    - SysInfo:\n' +
+        '        container: glances\n' +
+        '        icon: mdi-speedometer\n' +
+        '        href: http://server.tail0e60ba.ts.net:61208\n',
+      position: 139,
+      line: 5,
+      column: 4,
+      snippet: ' 3 | # https://gethomepage.dev/configs/se ...\n' +
+        ' 4 |  - Services:\n' +
+        ' 5 |     icon: si-dotnet\n' +
+        ' 6 |     - Todo API:\n' +
+        '---------^\n' +
+        ' 7 |         container: todoapi\n' +
+        ' 8 |         icon: si-dotnet'
+    },
+    message: 'bad indentation of a mapping entry (6:5)\n' +
+      '\n' +
+      ' 3 | # https://gethomepage.dev/configs/se ...\n' +
+      ' 4 |  - Services:\n' +
+      ' 5 |     icon: si-dotnet\n' +
+      ' 6 |     - Todo API:\n' +
+      '---------^\n' +
+      ' 7 |         container: todoapi\n' +
+      ' 8 |         icon: si-dotnet',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T13:47:13.055Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T13:47:13.055Z] error: YAMLException: bad indentation of a mapping entry (6:5)
+
+ 3 | # https://gethomepage.dev/configs/se ...
+ 4 |  - Services:
+ 5 |     icon: si-dotnet
+ 6 |     - Todo API:
+---------^
+ 7 |         container: todoapi
+ 8 |         icon: si-dotnet
+[2026-06-29T13:47:13.481Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '---\n' +
+        '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/services/\n' +
+        ' - Services:\n' +
+        '    icon: si-dotnet\n' +
+        '    - Todo API:\n' +
+        '        container: todoapi\n' +
+        '        icon: si-dotnet\n' +
+        '        description: ASP.NET Core Todo API (Tailscale)\n' +
+        '\n' +
+        '    - PostgreSQL:\n' +
+        '        container: todo-db\n' +
+        '        icon: si-postgresql\n' +
+        '        description: PostgreSQL database for Todo App\n' +
+        '\n' +
+        '    - Todo App:\n' +
+        '        href: https://server.tail0e60ba.ts.net/todoapp/\n' +
+        '        container: todoapi\n' +
+        '        icon: si-ticktick\n' +
+        '\n' +
+        '    - Minecraft:\n' +
+        '        container: minecraft-server\n' +
+        '        icon: si-minecraft\n' +
+        '        description: Minecraft server\n' +
+        '\n' +
+        '    - IT-Tools:\n' +
+        '        container: it-tools\n' +
+        '        icon: mdi-tools\n' +
+        '        description: http://server.tail0e60ba.ts.net:8081/\n' +
+        '        href: http://server.tail0e60ba.ts.net:8081/\n' +
+        '\n' +
+        '    - SysInfo:\n' +
+        '        container: glances\n' +
+        '        icon: mdi-speedometer\n' +
+        '        href: http://server.tail0e60ba.ts.net:61208\n',
+      position: 139,
+      line: 5,
+      column: 4,
+      snippet: ' 3 | # https://gethomepage.dev/configs/se ...\n' +
+        ' 4 |  - Services:\n' +
+        ' 5 |     icon: si-dotnet\n' +
+        ' 6 |     - Todo API:\n' +
+        '---------^\n' +
+        ' 7 |         container: todoapi\n' +
+        ' 8 |         icon: si-dotnet'
+    },
+    message: 'bad indentation of a mapping entry (6:5)\n' +
+      '\n' +
+      ' 3 | # https://gethomepage.dev/configs/se ...\n' +
+      ' 4 |  - Services:\n' +
+      ' 5 |     icon: si-dotnet\n' +
+      ' 6 |     - Todo API:\n' +
+      '---------^\n' +
+      ' 7 |         container: todoapi\n' +
+      ' 8 |         icon: si-dotnet',
+    config: 'services.yaml'
+  }
+]
+[2026-06-29T13:47:13.526Z] error: Failed to load services.yaml, please check for errors
+[2026-06-29T13:47:13.526Z] error: YAMLException: bad indentation of a mapping entry (6:5)
+
+ 3 | # https://gethomepage.dev/configs/se ...
+ 4 |  - Services:
+ 5 |     icon: si-dotnet
+ 6 |     - Todo API:
+---------^
+ 7 |         container: todoapi
+ 8 |         icon: si-dotnet
+[2026-06-29T14:41:05.193Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '    - OneDrive:\n' +
+        '      -  abbr: OD\n' +
+        '         href: https://onedrive.live.com/?id=%2Fpersonal%2F69e0766efa6541e6%2FDocuments%2FStadtkapelle%2F2026&viewid=e831eab6%2Dc574%2D4bce%2Db861%2D9fcdbd025673\n' +
+        '\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:05.219Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:41:05.225Z] error: <index> YAMLException: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-06-29T14:41:05.555Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '    - OneDrive:\n' +
+        '      -  abbr: OD\n' +
+        '         href: https://onedrive.live.com/?id=%2Fpersonal%2F69e0766efa6541e6%2FDocuments%2FStadtkapelle%2F2026&viewid=e831eab6%2Dc574%2D4bce%2Db861%2D9fcdbd025673\n' +
+        '\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:05.641Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:41:23.681Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '    - OneDrive:\n' +
+        '        -  abbr: OD\n' +
+        '           href: https://onedrive.live.com/?id=%2Fpersonal%2F69e0766efa6541e6%2FDocuments%2FStadtkapelle%2F2026&viewid=e831eab6%2Dc574%2D4bce%2Db861%2D9fcdbd025673\n' +
+        '\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:23.897Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '    - OneDrive:\n' +
+        '        -  abbr: OD\n' +
+        '           href: https://onedrive.live.com/?id=%2Fpersonal%2F69e0766efa6541e6%2FDocuments%2FStadtkapelle%2F2026&viewid=e831eab6%2Dc574%2D4bce%2Db861%2D9fcdbd025673\n' +
+        '\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:23.976Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:41:24.058Z] error: <index> YAMLException: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-06-29T14:41:24.301Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '    - OneDrive:\n' +
+        '        -  abbr: OD\n' +
+        '           href: https://onedrive.live.com/?id=%2Fpersonal%2F69e0766efa6541e6%2FDocuments%2FStadtkapelle%2F2026&viewid=e831eab6%2Dc574%2D4bce%2Db861%2D9fcdbd025673\n' +
+        '\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:24.378Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:41:43.275Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '    - OneDrive:\n' +
+        '       \n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:43.472Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '    - OneDrive:\n' +
+        '       \n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:43.553Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:41:43.629Z] error: <index> YAMLException: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-06-29T14:41:43.885Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '    - OneDrive:\n' +
+        '       \n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:43.945Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:41:54.306Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:54.492Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:54.575Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:41:54.642Z] error: <index> YAMLException: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-06-29T14:41:54.879Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n' +
+        '- Stadtkapelle:\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:41:54.907Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:42:01.641Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:42:01.853Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:42:01.943Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:42:01.998Z] error: <index> YAMLException: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-06-29T14:42:02.257Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n' +
+        '\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:42:02.278Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:42:24.267Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:42:24.468Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:42:24.549Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:42:24.623Z] error: <index> YAMLException: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-06-29T14:42:24.875Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:42:24.897Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:42:59.326Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:43:01.338Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        -  abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 348,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         -  abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         -  abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:43:01.419Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         -  abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:43:19.928Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        - abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 347,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         - abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         - abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:43:20.112Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        - abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 347,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         - abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         - abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:43:20.240Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         - abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:43:20.314Z] error: <index> YAMLException: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         - abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+    at generateError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1289:10)
+    at throwError (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:1293:9)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2278:7)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+    at readBlockMapping (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2260:11)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2537:12)
+    at readBlockSequence (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2104:5)
+    at composeNode (file:///app/node_modules/.pnpm/js-yaml@4.1.1/node_modules/js-yaml/dist/js-yaml.mjs:2536:12)
+[2026-06-29T14:43:20.547Z] error: <configValidationHandler> Configuration validation errors [
+  {
+    name: 'YAMLException',
+    reason: 'bad indentation of a mapping entry',
+    mark: {
+      name: null,
+      buffer: '# For configuration options and examples, please see:\n' +
+        '# https://gethomepage.dev/configs/bookmarks\n' +
+        '\n' +
+        '- Development:\n' +
+        '    - Github:\n' +
+        '        - abbr: Git\n' +
+        '          href: https://github.com/Beatle992?tab=repositories\n' +
+        '    - Tailscale:\n' +
+        '        - abbr: Tail\n' +
+        '          href: https://login.tailscale.com/admin/machines\n' +
+        '    - Icon:\n' +
+        '        - abbr: Ico\n' +
+        '        href: https://pictogrammers.com/library/mdi/\n' +
+        '\n' +
+        '- Electronics:\n' +
+        '    - AllaboutCircuits:\n' +
+        '        - abbr: ICs\n' +
+        '          href: https://www.allaboutcircuits.com/\n',
+      position: 347,
+      line: 12,
+      column: 8,
+      snippet: ' 10 |           href: https://login.tailscale ...\n' +
+        ' 11 |     - Icon:\n' +
+        ' 12 |         - abbr: Ico\n' +
+        ' 13 |         href: https://pictogrammers.com ...\n' +
+        '--------------^\n' +
+        ' 14 | \n' +
+        ' 15 | - Electronics:'
+    },
+    message: 'bad indentation of a mapping entry (13:9)\n' +
+      '\n' +
+      ' 10 |           href: https://login.tailscale ...\n' +
+      ' 11 |     - Icon:\n' +
+      ' 12 |         - abbr: Ico\n' +
+      ' 13 |         href: https://pictogrammers.com ...\n' +
+      '--------------^\n' +
+      ' 14 | \n' +
+      ' 15 | - Electronics:',
+    config: 'bookmarks.yaml'
+  }
+]
+[2026-06-29T14:43:20.571Z] error: bad indentation of a mapping entry (13:9)
+
+ 10 |           href: https://login.tailscale ...
+ 11 |     - Icon:
+ 12 |         - abbr: Ico
+ 13 |         href: https://pictogrammers.com ...
+--------------^
+ 14 | 
+ 15 | - Electronics:
+[2026-06-29T14:43:50.696Z] error: undefined
+[2026-06-29T14:43:51.103Z] error: undefined
+[2026-06-29T14:43:51.174Z] error: <index> TypeError: Cannot read properties of null (reading 'map')
+    at /app/.next/server/pages/index.js:8:24208
+    at Array.map (<anonymous>)
+    at n (/app/.next/server/pages/index.js:8:24145)
+    at async K (/app/.next/server/pages/index.js:2:51417)
+    at async rv (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:13:2961)
+    at async o (/app/.next/server/chunks/1207.js:1:17593)
+    at async ti.handleRevalidate (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:1:55675)
+    at async /app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:1:41726
+[2026-06-29T14:43:51.548Z] error: undefined
+[2026-06-29T14:43:56.671Z] error: undefined
+[2026-06-29T14:44:11.746Z] error: undefined
+[2026-06-29T14:44:36.831Z] error: undefined
+[2026-06-29T14:46:11.299Z] error: undefined
+[2026-06-29T14:46:11.549Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:8:24263
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:8:24208
+    at Array.map (<anonymous>)
+    at n (/app/.next/server/pages/index.js:8:24145)
+    at async K (/app/.next/server/pages/index.js:2:51417)
+    at async rv (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:13:2961)
+    at async o (/app/.next/server/chunks/1207.js:1:17593)
+    at async ti.handleRevalidate (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:1:55675)
+    at async /app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:1:41726
+[2026-06-29T14:46:11.833Z] error: undefined
+[2026-06-29T14:46:19.637Z] error: undefined
+[2026-06-29T14:46:19.968Z] error: <index> TypeError: Cannot read properties of null (reading '0')
+    at /app/.next/server/pages/index.js:8:24263
+    at Array.map (<anonymous>)
+    at /app/.next/server/pages/index.js:8:24208
+    at Array.map (<anonymous>)
+    at n (/app/.next/server/pages/index.js:8:24145)
+    at async K (/app/.next/server/pages/index.js:2:51417)
+    at async rv (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:13:2961)
+    at async o (/app/.next/server/chunks/1207.js:1:17593)
+    at async ti.handleRevalidate (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:1:55675)
+    at async /app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:1:41726
+[2026-06-29T14:46:20.171Z] error: undefined
+[2026-06-29T14:46:30.312Z] error: undefined
+[2026-06-29T14:46:40.386Z] error: undefined
+[2026-06-29T14:47:55.496Z] error: undefined
+[2026-06-29T14:47:55.563Z] error: <index> TypeError: Cannot read properties of null (reading 'map')
+    at /app/.next/server/pages/index.js:8:24208
+    at Array.map (<anonymous>)
+    at n (/app/.next/server/pages/index.js:8:24145)
+    at async K (/app/.next/server/pages/index.js:2:51417)
+    at async rv (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:13:2961)
+    at async o (/app/.next/server/chunks/1207.js:1:17593)
+    at async ti.handleRevalidate (/app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:1:55675)
+    at async /app/node_modules/.pnpm/next@16.2.6_react-dom@19.2.5_react@19.2.5__react@19.2.5/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:1:41726
+[2026-06-29T14:47:55.919Z] error: undefined
+[2026-06-29T14:48:01.048Z] error: undefined
+[2026-06-29T14:48:04.120Z] error: undefined
+[2026-06-29T14:48:11.485Z] error: undefined
+[2026-06-29T14:48:14.564Z] error: undefined

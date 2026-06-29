@@ -24,12 +24,12 @@
 
     - IT-Tools:
         container: it-tools
-        icon: si-minecraft
+        icon: mdi-tools
         description: http://server.tail0e60ba.ts.net:8081/
         href: http://server.tail0e60ba.ts.net:8081/
 
-    - Server Control:
-      - Kill Switch:
-          icon: mdi-power
-          href:
-          description: kill the server
+    - SysInfo:
+        container: glances
+        icon: mdi-speedometer
+        href: http://server.tail0e60ba.ts.net:61208
+        description: System Info

@@ -8,5 +8,19 @@
     disk: /
 
 - search:
-    provider: firefox
+    provider: brave
     target: _blank
+
+- datetime:
+    text_size: md
+    format:
+      timeStyle: short
+      dateStyle: short
+    locale: 'de-AT'
+
+- openmeteo:
+    label: Home
+    latitude: 48.1299
+    longitude: 15.1354
+    units: metric
+    cache: 5

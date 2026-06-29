@@ -1,26 +1,79 @@
+
+/* =========================
+   GLOBAL RESET (fix grey background issue)
+========================= */
+
+html, body {
+  background: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* Homepage main containers */
+#root,
+#__next,
+main,
+.app,
+.container {
+  background: transparent !important;
+}
+
+/* =========================
+   BACKGROUND IMAGE + BLUR LAYER
+========================= */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470")
+    center/cover no-repeat;
+  filter: blur(16px);
+  transform: scale(1.1);
+  z-index: -2;
+}
+
+/* Dark overlay for readability */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+
+/* =========================
+   GLASS VARIABLES
+========================= */
+
 :root {
-  --glass-bg: rgba(15, 23, 42, 0.55);
+  --glass-bg: rgba(15, 23, 42, 0.50);
   --glass-border: rgba(255, 255, 255, 0.08);
-  --glow: rgba(56, 189, 248, 0.35);
+  --glow: rgba(56, 189, 248, 0.25);
 }
 
-body {
-  background-attachment: fixed !important;
-}
+/* =========================
+   HEADER
+========================= */
 
-/* Header */
 header {
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  background: transparent !important;
 }
 
-/* Service cards */
+/* =========================
+   CARDS / SERVICES / BOOKMARKS
+========================= */
+
 .service-card,
 .bookmark-card,
 .card {
   border-radius: 18px !important;
   background: var(--glass-bg) !important;
   border: 1px solid var(--glass-border) !important;
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   transition: all 0.25s ease;
 }
 
@@ -31,66 +84,95 @@ header {
   transform: translateY(-3px);
   box-shadow:
     0 0 20px var(--glow),
-    0 8px 25px rgba(0, 0, 0, 0.25);
+    0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
-/* Group titles */
+/* =========================
+   TEXT STYLING
+========================= */
+
 h2 {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
 }
 
-/* Service names */
 .service-name {
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
 }
 
-/* Status dots */
+/* Status indicator */
 .status {
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
-/* Search bar */
+/* =========================
+   SEARCH BAR
+========================= */
+
 input[type="search"] {
   border-radius: 14px !important;
   backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
-/* Scrollbar */
+/* =========================
+   SCROLLBAR
+========================= */
+
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
 }
 
-/* Fade-in animation */
+/* =========================
+   ANIMATIONS
+========================= */
+
 .service-card,
 .bookmark-card {
-  animation: fadeInUp 0.4s ease forwards;
+  animation: fadeInUp 0.35s ease forwards;
 }
 
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(12px);
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
+/* =========================
+   CUSTOM WIDGET AREA
+========================= */
+
 #mission-control-widget {
-    color: white;
-    min-width: 180px;
-    text-align: right;
-    transition: all 0.3s ease;
+  color: white;
+  min-width: 180px;
+  text-align: right;
+  transition: all 0.3s ease;
 }
 
 #mission-control-widget:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 25px rgba(56,189,248,.4);
+  transform: translateY(-2px);
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.35);
 }
+
+/* =========================
+   NUCLEAR OVERRIDE (ONLY IF NEEDED)
+   uncomment if grey still appears
+========================= */
+
+/*
+* {
+  background-color: transparent !important;
+}
+*/

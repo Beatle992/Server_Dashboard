@@ -8,11 +8,16 @@
     - Tailscale:
         - abbr: Tail
           href: https://login.tailscale.com/admin/machines
+    - Icon:
+        - abbr: Ico
+          href: https://pictogrammers.com/library/mdi/
+
 - Electronics:
     - AllaboutCircuits:
         - abbr: ICs
           href: https://www.allaboutcircuits.com/
 
-
-
-
+- Stadtkapelle:
+    - OneDrive:
+        - abbr: OD
+          href: https://onedrive.live.com/?id=%2Fpersonal%2F69e0766efa6541e6%2FDocuments%2FStadtkapelle%2F2026&viewid=e831eab6%2Dc574%2D4bce%2Db861%2D9fcdbd025673

@@ -16,15 +16,19 @@ headerStyle: boxed
 layout:
   Services:
     style: row
+    columns: 1
+
+  Development:
+    style: columns
     columns: 4
 
-  Infrastructure:
-    style: row
-    columns: 3
+  Electronics:
+    style: columns
+    columns: 4
 
-  Monitoring:
-    style: row
-    columns: 3
+  Stadtkapelle:
+    style: columns
+    columns: 4
 
 quicklaunch:
   searchDescriptions: true

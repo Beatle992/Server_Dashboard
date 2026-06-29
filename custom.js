@@ -17,12 +17,11 @@ window.addEventListener("load", () => {
 
     widget.innerHTML = `
         <div style="font-weight:600;">${getGreeting()}, Leo</div>
-        <div style="font-size:12px;opacity:.8;">ControlPanel Online</div>
     `;
 
     widget.style.position = "fixed";
-    widget.style.top = "20px";
-    widget.style.right = "20px";
+    widget.style.top = "5px";
+    widget.style.right = "10px";
     widget.style.padding = "12px 16px";
     widget.style.borderRadius = "16px";
     widget.style.backdropFilter = "blur(16px)";
