@@ -876,3 +876,21 @@
     at retryNode (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5617:9)
     at renderNodeDestructive (/app/node_modules/.pnpm/react-dom@19.2.5_react@19.2.5/node_modules/react-dom/cjs/react-dom-server.edge.production.js:5397:7)
 [2026-06-23T06:51:56.751Z] error: undefined
+[2026-06-23T14:02:48.033Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:02:48.034Z] error: TypeError: b.map is not a function
+[2026-06-23T14:02:48.117Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:02:48.117Z] error: TypeError: b.map is not a function
+[2026-06-23T14:02:48.621Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:02:48.621Z] error: TypeError: b.map is not a function
+[2026-06-23T14:02:51.261Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:02:51.261Z] error: TypeError: b.map is not a function
+[2026-06-23T14:03:20.013Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:03:20.013Z] error: TypeError: b.map is not a function
+[2026-06-23T14:03:32.758Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:03:32.758Z] error: TypeError: b.map is not a function
+[2026-06-23T14:03:32.975Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:03:32.975Z] error: TypeError: b.map is not a function
+[2026-06-23T14:03:33.388Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:03:33.388Z] error: TypeError: b.map is not a function
+[2026-06-23T14:03:58.446Z] error: Failed to load services.yaml, please check for errors
+[2026-06-23T14:03:58.446Z] error: TypeError: b.map is not a function

@@ -1,12 +1,10 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
-
--   Services:
+ - Services:
     - Todo API:
         container: todoapi
         icon: si-dotnet
-        href: http://100.90.164.103:5000/
         description: ASP.NET Core Todo API (Tailscale)
 
     - PostgreSQL:
@@ -14,12 +12,24 @@
         icon: si-postgresql
         description: PostgreSQL database for Todo App
 
-
     - Todo App:
         href: https://server.tail0e60ba.ts.net/todoapp/
         container: todoapi
         icon: si-ticktick
+
     - Minecraft:
         container: minecraft-server
         icon: si-minecraft
         description: Minecraft server
+
+    - IT-Tools:
+        container: it-tools
+        icon: si-minecraft
+        description: http://server.tail0e60ba.ts.net:8081/
+        href: http://server.tail0e60ba.ts.net:8081/
+
+    - Server Control:
+      - Power Control:
+          icon: mdi-power
+          href: http://100.90.164.103:8090
+          description: Server shutdown and reboot controls
